@@ -1,0 +1,48 @@
+.top {
+    display: grid;
+    grid-template-areas: 'logo redirectHelp redirectProducts redirectForums';
+    grid-template-columns: 10vw 30vw 30vw 30vw;
+    grid-template-rows: 20vh;
+    background-color: peachpuff;
+    column-gap: 10px;
+    text-align: center;
+
+}
+
+.logo {
+    grid-area: logo;
+    width: 100%;
+}
+
+.redirectHelp {
+    grid-area: redirectHelp;
+}
+
+.redirectProducts {
+    grid-area: redirectProducts;
+}
+
+.redirectForums {
+    grid-area: redirectForums;
+}
+
+#quote {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: gray;
+    background-blend-mode: overlay;
+    opacity: 0.5;
+    grid-template-areas: 'a' 'b';
+    row-gap: 0vh;
+    width: 40vw;
+
+}
+
+#quoteA {
+    grid-area: a;
+}
+
+#quoteB {
+    grid-area: b;
+}
