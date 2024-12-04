@@ -1,12 +1,23 @@
 .top {
+    grid-area: top1;
     display: grid;
     grid-template-areas: 'logo redirectHelp redirectProducts redirectForums';
-    grid-template-columns: 10vw 30vw 30vw 30vw;
-    grid-template-rows: 20vh;
-    background-color: peachpuff;
-    column-gap: 10px;
-    text-align: center;
+    grid-template-columns: 10vw 1fr 1fr 1fr;
 
+    background-color: peachpuff;
+    column-gap: normal;
+    text-align: center;
+    height: 25vh;
+    padding: 1vw;
+}
+
+#index {   
+    background-color: beige;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 'top1' 'quote';
+    height: 100vh;
+    
 }
 
 .logo {
@@ -27,16 +38,17 @@
 }
 
 #quote {
+    grid-area: quote;
     display: grid;
     align-content: center;
     justify-content: center;
-    background-color: gray;
-    background-blend-mode: overlay;
-    opacity: 0.5;
+    background-color: lightcoral;
     grid-template-areas: 'a' 'b';
-    row-gap: 0vh;
-    width: 40vw;
-
+    color: brown;
+    width: 30vw;
+    border-radius: 25px;
+    padding: 1vw;
+    height: fit-content;
 }
 
 #quoteA {
