@@ -1,13 +1,18 @@
+:root {
+    --maincolor: #3498db;
+    --subcolor: rgb(165, 212, 195);
+}
+
 .top {
     grid-area: top1;
     display: grid;
     grid-template-areas: 'logo redirectHelp redirectProducts redirectForums';
     grid-template-columns: 10vw 1fr 1fr 1fr;
 
-    background-color: peachpuff;
+    background-color: var(--subcolor);
     column-gap: normal;
     text-align: center;
-    height: 25vh;
+    height: 21vh;
     padding: 1vw;
 }
 
@@ -27,14 +32,24 @@
 
 .redirectHelp {
     grid-area: redirectHelp;
+    background-color: var(--maincolor);
+    border-radius: 1vw;
+    margin-left: 1vw;
 }
 
 .redirectProducts {
     grid-area: redirectProducts;
+    background-color: var(--maincolor);
+    border-radius: 1vw;
+    margin-left: 1vw;
 }
+
 
 .redirectForums {
     grid-area: redirectForums;
+    background-color: var(--maincolor);
+    border-radius: 1vw;
+    margin-left: 1vw;
 }
 
 #quote {
@@ -42,13 +57,14 @@
     display: grid;
     align-content: center;
     justify-content: center;
-    background-color: lightcoral;
+    background-color: var(--maincolor);
     grid-template-areas: 'a' 'b';
-    color: brown;
+    color: black;
     width: 30vw;
-    border-radius: 25px;
+    border-radius: 2vw;
     padding: 1vw;
     height: fit-content;
+    margin-left: 9vw;
 }
 
 #quoteA {
