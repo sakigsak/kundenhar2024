@@ -74,3 +74,72 @@
 #quoteB {
     grid-area: b;
 }
+
+.doctors {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+#listDoctors {
+    background-color: var(--subcolor);
+    width: 40vw;
+    height: 60vh;
+    margin-left: 8vw;
+    order: 1;
+    border-radius: 1vw;
+}
+
+#doctor1 {
+    background-color: var(--maincolor);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: row;
+    width: 39vw;
+    height: 13vh;
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+
+}
+
+#doctor1img {
+    border-radius: 1vw;
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+#doctor1nameAndDesc {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainDoctor {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--maincolor);
+    width: 40vw;
+    height: 60vh;
+    margin-left: 4vw;
+    order: 2;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+#imgDrMario {
+    display: flex;
+    height: 20vh;
+    border-radius: 100vw;
+    margin: auto;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+#descDrMario {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
