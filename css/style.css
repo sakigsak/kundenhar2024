@@ -1,6 +1,8 @@
 :root {
     --maincolor: #3498db;
     --subcolor: rgb(165, 212, 195);
+    font-family: "Roboto Condensed", sans-serif;
+
 }
 
 .top {
@@ -23,6 +25,22 @@
     grid-template-areas: 'top1' 'quote';
     height: 100vh;
     
+}
+
+body#index {
+    background-image: url('/img/background_start.webp');
+    image-rendering: crisp-edges;
+    margin:0;
+}
+
+body#help {
+    margin:0;
+    background-color: rgb(120, 150, 148);
+}
+
+body#forums {
+    margin:0;
+    background-color: rgb(120, 150, 148);
 }
 
 .logo {
@@ -225,6 +243,7 @@
     height: 20vh;
     background-color: var(--maincolor);
     border-radius: 1vw;
+    padding: 2vh;
 }
 
 .comments {
