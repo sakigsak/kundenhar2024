@@ -10,12 +10,12 @@
     display: grid;
     grid-template-areas: 'logo redirectHelp redirectProducts redirectForums';
     grid-template-columns: 10vw 1fr 1fr 1fr;
-
     background-color: var(--subcolor);
     column-gap: normal;
     text-align: center;
     height: 21vh;
     padding: 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #index {   
@@ -53,6 +53,7 @@ body#forums {
     background-color: var(--maincolor);
     border-radius: 1vw;
     margin-left: 1vw;
+    padding: 4vw;
 }
 
 .redirectProducts {
@@ -60,6 +61,7 @@ body#forums {
     background-color: var(--maincolor);
     border-radius: 1vw;
     margin-left: 1vw;
+    padding: 4vw;
 }
 
 
@@ -68,6 +70,7 @@ body#forums {
     background-color: var(--maincolor);
     border-radius: 1vw;
     margin-left: 1vw;
+    padding: 4vw;
 }
 
 #quote {
@@ -111,6 +114,7 @@ body#forums {
 #employeeList {
     display: flex;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #doctor1 {
@@ -138,6 +142,10 @@ body#forums {
     flex-direction: column;
 }
 
+#doctor1name {
+    font-weight: bold;
+}
+
 #doctor2 {
     background-color: var(--maincolor);
     border-radius: 1vw;
@@ -161,6 +169,10 @@ body#forums {
 #doctor2nameAndDesc {
     display: flex;
     flex-direction: column;
+}
+
+#doctor2name {
+    font-weight: bold;
 }
 
 #doctor3 {
@@ -188,6 +200,10 @@ body#forums {
     flex-direction: column;
 }
 
+#doctor3name {
+    font-weight: bold;
+}
+
 #doctor4 {
     background-color: var(--maincolor);
     border-radius: 1vw;
@@ -213,6 +229,10 @@ body#forums {
     flex-direction: column;
 }
 
+#doctor4name {
+    font-weight: bold;
+}
+
 #mainDoctor {
     display: flex;
     flex-direction: column;
@@ -223,6 +243,7 @@ body#forums {
     order: 2;
     border-radius: 1vw;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #imgDrMario {
@@ -249,7 +270,7 @@ body#forums {
 .comments {
     display: grid;
     grid-template-columns: 80vw;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-self: center;
     margin-top: 5vh;
 }
@@ -260,6 +281,7 @@ body#forums {
     display: grid;
     grid-template-areas: 'img p';
     grid-template-columns: 7vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #commenter1img {
@@ -282,6 +304,7 @@ body#forums {
     display: grid;
     grid-template-areas: 'img p';
     grid-template-columns: 7vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #commenter2img {
@@ -304,6 +327,7 @@ body#forums {
     display: grid;
     grid-template-areas: 'img p';
     grid-template-columns: 7vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #commenter3img {
@@ -326,6 +350,7 @@ body#forums {
     display: grid;
     grid-template-areas: 'img p';
     grid-template-columns: 7vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #commenter4img {
